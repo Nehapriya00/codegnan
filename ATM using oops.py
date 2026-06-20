@@ -3,6 +3,7 @@ class ATM:
         self.name=name
         self.pin=pin
         self.balance=balance
+        self.transaction_history=[]
     def verify_pin(self):
         attempts = 3
         while attempts > 0:
